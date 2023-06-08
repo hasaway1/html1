@@ -19,15 +19,15 @@
       border-collapse: collapse;
     }
     span {
-      width: 150px;
+      width: 180px;
       color: white;
       background-color: blueviolet;
       border: 3px solid blue;
       height: 35px;
       border-radius: 20px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      line-height: 35px;
+      display: inline-block;
+      text-align: center;
     }
     td {
       text-align: center;
@@ -61,26 +61,34 @@
         <td>Side by Side 2</td>
         <td>American Headway 2</td>
         <td>1개월</td>
-        <td></td>
+        <td>
+          <div><span>세부내용보기</span></div>
+        </td>
       </tr>
       <tr>
         <td>레벨3</td>
         <td>Side by Side 3</td>
         <td>American Headway 3</td>
         <td>1개월</td>
-        <td></td>
+        <td>
+          <span>세부내용보기</span>
+        </td>
       </tr>
       <tr>
         <td>레벨4</td>
         <td colspan="2">Exploring English 1</td>
         <td>2개월</td>
-        <td></td>
+        <td style="text-align: center;">
+          <span>세부내용보기</span>
+        </td>
       </tr>
       <tr>
         <td>레벨5</td>
         <td colspan="2">Exploring English 2</td>
         <td>2개월</td>
-        <td></td>
+        <td>
+          <span>세부내용보기</span>
+        </td>
       </tr>
     </tbody>
   </table>
